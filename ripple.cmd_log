@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/bilge/Programs/Xilinx/Projects/lab3_trial2/ripple.xst" -ofn "D:/bilge/Programs/Xilinx/Projects/lab3_trial2/ripple.syr" 
+xst -intstyle ise -ifn "D:/bilge/Programs/Xilinx/Projects/lab3_trial2/ripple.xst" -ofn "D:/bilge/Programs/Xilinx/Projects/lab3_trial2/ripple.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/bilge/Programs/Xilinx/Projects/lab3_trial2/hybrid_adder.xst" -ofn "D:/bilge/Programs/Xilinx/Projects/lab3_trial2/hybrid_adder.syr" 

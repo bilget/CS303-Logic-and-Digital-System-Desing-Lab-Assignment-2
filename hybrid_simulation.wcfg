@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/bilge/Programs/Xilinx/Projects/lab3_trial2/test2_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/test2/s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s[17:0]</obj_property>
+      <obj_property name="ObjectShortName">s[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">c[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[17:0]</obj_property>
+      <obj_property name="ObjectShortName">a[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[17:0]</obj_property>
+      <obj_property name="ObjectShortName">b[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/c0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c0</obj_property>
+      <obj_property name="ObjectShortName">c0</obj_property>
+   </wvobject>
+</wave_config>

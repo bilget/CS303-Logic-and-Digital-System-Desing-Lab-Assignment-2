@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/bilge/Programs/Xilinx/Projects/lab3_trial2/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/test/c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus74" type="vbus" db_ref_id="1">
+      <obj_property name="label">s</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test/s1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s1</obj_property>
+         <obj_property name="ObjectShortName">s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s2</obj_property>
+         <obj_property name="ObjectShortName">s2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s3</obj_property>
+         <obj_property name="ObjectShortName">s3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s4" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s4</obj_property>
+         <obj_property name="ObjectShortName">s4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s5</obj_property>
+         <obj_property name="ObjectShortName">s5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s6" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s6</obj_property>
+         <obj_property name="ObjectShortName">s6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s7" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s7</obj_property>
+         <obj_property name="ObjectShortName">s7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s8" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s8</obj_property>
+         <obj_property name="ObjectShortName">s8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s9" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s9</obj_property>
+         <obj_property name="ObjectShortName">s9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s10" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s10</obj_property>
+         <obj_property name="ObjectShortName">s10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s11" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s11</obj_property>
+         <obj_property name="ObjectShortName">s11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s12" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s12</obj_property>
+         <obj_property name="ObjectShortName">s12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s13" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s13</obj_property>
+         <obj_property name="ObjectShortName">s13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s14" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s14</obj_property>
+         <obj_property name="ObjectShortName">s14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s15" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s15</obj_property>
+         <obj_property name="ObjectShortName">s15</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s16" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s16</obj_property>
+         <obj_property name="ObjectShortName">s16</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s17" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s17</obj_property>
+         <obj_property name="ObjectShortName">s17</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/s18" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s18</obj_property>
+         <obj_property name="ObjectShortName">s18</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/test/c1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c1</obj_property>
+      <obj_property name="ObjectShortName">c1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c2</obj_property>
+      <obj_property name="ObjectShortName">c2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c3</obj_property>
+      <obj_property name="ObjectShortName">c3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c4</obj_property>
+      <obj_property name="ObjectShortName">c4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c5</obj_property>
+      <obj_property name="ObjectShortName">c5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c6</obj_property>
+      <obj_property name="ObjectShortName">c6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c7</obj_property>
+      <obj_property name="ObjectShortName">c7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c8" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c8</obj_property>
+      <obj_property name="ObjectShortName">c8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c9" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c9</obj_property>
+      <obj_property name="ObjectShortName">c9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c10" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c10</obj_property>
+      <obj_property name="ObjectShortName">c10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c11" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c11</obj_property>
+      <obj_property name="ObjectShortName">c11</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c12" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c12</obj_property>
+      <obj_property name="ObjectShortName">c12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c13" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c13</obj_property>
+      <obj_property name="ObjectShortName">c13</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c14" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c14</obj_property>
+      <obj_property name="ObjectShortName">c14</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c15" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c15</obj_property>
+      <obj_property name="ObjectShortName">c15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c16" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c16</obj_property>
+      <obj_property name="ObjectShortName">c16</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/c17" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c17</obj_property>
+      <obj_property name="ObjectShortName">c17</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus76" type="vbus" db_ref_id="1">
+      <obj_property name="label">y</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test/y1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y1</obj_property>
+         <obj_property name="ObjectShortName">y1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y2</obj_property>
+         <obj_property name="ObjectShortName">y2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y3</obj_property>
+         <obj_property name="ObjectShortName">y3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y4" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y4</obj_property>
+         <obj_property name="ObjectShortName">y4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y5</obj_property>
+         <obj_property name="ObjectShortName">y5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y6" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y6</obj_property>
+         <obj_property name="ObjectShortName">y6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y7" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y7</obj_property>
+         <obj_property name="ObjectShortName">y7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y8" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y8</obj_property>
+         <obj_property name="ObjectShortName">y8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y9" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y9</obj_property>
+         <obj_property name="ObjectShortName">y9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y10" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y10</obj_property>
+         <obj_property name="ObjectShortName">y10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y11" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y11</obj_property>
+         <obj_property name="ObjectShortName">y11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y12" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y12</obj_property>
+         <obj_property name="ObjectShortName">y12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y13" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y13</obj_property>
+         <obj_property name="ObjectShortName">y13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y14" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y14</obj_property>
+         <obj_property name="ObjectShortName">y14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y15" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y15</obj_property>
+         <obj_property name="ObjectShortName">y15</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y16" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y16</obj_property>
+         <obj_property name="ObjectShortName">y16</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y17" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y17</obj_property>
+         <obj_property name="ObjectShortName">y17</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/y18" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y18</obj_property>
+         <obj_property name="ObjectShortName">y18</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus75" type="vbus" db_ref_id="1">
+      <obj_property name="label">x</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test/x1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x1</obj_property>
+         <obj_property name="ObjectShortName">x1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x2</obj_property>
+         <obj_property name="ObjectShortName">x2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x3</obj_property>
+         <obj_property name="ObjectShortName">x3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x4" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x4</obj_property>
+         <obj_property name="ObjectShortName">x4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x5</obj_property>
+         <obj_property name="ObjectShortName">x5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x6" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x6</obj_property>
+         <obj_property name="ObjectShortName">x6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x7" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x7</obj_property>
+         <obj_property name="ObjectShortName">x7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x8" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x8</obj_property>
+         <obj_property name="ObjectShortName">x8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x9" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x9</obj_property>
+         <obj_property name="ObjectShortName">x9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x10" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x10</obj_property>
+         <obj_property name="ObjectShortName">x10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x11" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x11</obj_property>
+         <obj_property name="ObjectShortName">x11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x12" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x12</obj_property>
+         <obj_property name="ObjectShortName">x12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x13" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x13</obj_property>
+         <obj_property name="ObjectShortName">x13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x14" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x14</obj_property>
+         <obj_property name="ObjectShortName">x14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x15" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x15</obj_property>
+         <obj_property name="ObjectShortName">x15</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x16" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x16</obj_property>
+         <obj_property name="ObjectShortName">x16</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x17" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x17</obj_property>
+         <obj_property name="ObjectShortName">x17</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/x18" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">x18</obj_property>
+         <obj_property name="ObjectShortName">x18</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/test/t" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t</obj_property>
+      <obj_property name="ObjectShortName">t</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,319 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: ripple.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ripple.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ripple"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-tq144
+
+---- Source Options
+Top Module Name                    : ripple
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple.v" in library work
+Module <full_adder> compiled
+Module <ripple> compiled
+No errors in compilation
+Analysis of file <"ripple.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <ripple> in library <work>.
+
+Analyzing hierarchy for module <full_adder> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ripple>.
+Module <ripple> is correct for synthesis.
+ 
+Analyzing module <full_adder> in library <work>.
+Module <full_adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <full_adder>.
+    Related source file is "ripple.v".
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <b>.
+Unit <full_adder> synthesized.
+
+
+Synthesizing Unit <ripple>.
+    Related source file is "ripple.v".
+Unit <ripple> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 36
+ 1-bit xor2                                            : 36
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 36
+ 1-bit xor2                                            : 36
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ripple> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ripple, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ripple.ngr
+Top Level Output File Name         : ripple
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 73
+
+Cell Usage :
+# BELS                             : 36
+#      LUT3                        : 36
+# IO Buffers                       : 73
+#      IBUF                        : 37
+#      OBUF                        : 36
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-4 
+
+ Number of Slices:                       21  out of    960     2%  
+ Number of 4 input LUTs:                 36  out of   1920     1%  
+ Number of IOs:                          73
+ Number of bonded IOBs:                  73  out of    108    67%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 27.966ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 720 / 36
+-------------------------------------------------------------------------
+Delay:               27.966ns (Levels of Logic = 20)
+  Source:            x18 (PAD)
+  Destination:       s1 (PAD)
+
+  Data Path: x18 to s1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  x18_IBUF (x18_IBUF)
+     LUT3:I0->O            3   0.704   0.566  f18/c1 (c17_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f17/c1 (c16_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f16/c1 (c15_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f15/c1 (c14_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f14/c1 (c13_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f13/c1 (c12_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f12/c1 (c11_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f11/c1 (c10_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f10/c1 (c9_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f9/c1 (c8_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f8/c1 (c7_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f7/c1 (c6_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f6/c1 (c5_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f5/c1 (c4_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f4/c1 (c3_OBUF)
+     LUT3:I2->O            3   0.704   0.566  f3/c1 (c2_OBUF)
+     LUT3:I2->O            3   0.704   0.706  f2/c1 (c1_OBUF)
+     LUT3:I0->O            1   0.704   0.420  f1/Mxor_s_Result1 (s1_OBUF)
+     OBUF:I->O                 3.272          s1_OBUF (s1)
+    ----------------------------------------
+    Total                     27.966ns (17.162ns logic, 10.804ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.45 secs
+ 
+--> 
+
+Total memory usage is 4534648 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
