@@ -1,0 +1,29 @@
+Command line:
+   hybrid_adder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  29999
+
+Mon Nov 19 18:34:56 2018
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5331.38 Meg
+
+ Total Signals          : 174
+ Total Nets             : 165
+ Total Signal Drivers   : 120
+ Total Blocks           : 7
+ Total Primitive Blocks : 6
+ Total Processes        : 121
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 245
+Total Line Count : 14
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5331.38 Meg
+
+Mon Nov 19 18:35:01 2018
+
